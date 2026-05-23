@@ -1,6 +1,11 @@
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HeroCarousel from './components/HeroCarousel';
+import About from './components/About';
+import Divisions from './components/Divisions';
+import Cta from './components/Cta';
+import Footer from './components/Footer';
+
 
 export default function App() {
   
@@ -32,6 +37,10 @@ export default function App() {
     <div className="font-sans text-gray-800">
       <Navbar />
       <HeroCarousel />
+      <About />
+      <Divisions />
+      <Cta />
+      <Footer />
     </div>
   );
 }
